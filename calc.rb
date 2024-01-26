@@ -1,28 +1,27 @@
 
- def get_int_values
-   [gets, gets].map{ |s| s.chomp.to_i }
- end
+# def get_int_values
+   #[gets, gets].map{ |s| s.chomp.to_i }
+ #end
 
- puts "Would u like to [add], [multiply], or [subtract]?"
- response = gets.chomp
+ #puts "Would u like to [add], [multiply], or [subtract]?"
+# response = gets.chomp
 
- case response.downcase
- when 'add'
-   puts "Which numbers would u like to add?"
-   operator = :+
+# case response.downcase
+ #when 'add'
+   #puts "Which numbers would u like to add?"
+   #operator = :+
 
- when 'subtract'
-   puts "Which numbers would u ......"
-   operator = :-
+# when 'subtract'
+   #puts "Which numbers would u ......"
+  # operator = :-
 
- when 'multiply'
-   puts "Which numbers would u ....""
-   operator = :*
+ #when 'multiply'
+   #puts "Which numbers would u ....""
+  # operator = :*
+ #end
 
- end
-
- answer = get_int_values.inject(operator)
- puts "The answer is ---------------- #{ answer }"
+# answer = get_int_values.inject(operator)
+ #puts "The answer is ---------------- #{ answer }"
 
 def getNumbers(aArray)
   # Method to take multiple integers as input from user.
